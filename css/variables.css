@@ -2,13 +2,14 @@
   --white: #ffffff;
   --gray: #d9d9d9;
   --black: #000000;
-  --primary-color: #02073e;
+  --blue-og: rgb(21, 115, 209);
+  --primary-color: #222222;
   --secondary-color: #0f2137;
   --dark-secondary-color: #3c415c;
   --tertiary-color: #a6b1e1;
   --light-tertiary-color: #f3f6fb;
   --text-color: #343d48;
-  --links-hover-color: rgba(141, 169, 221, 0.2);
+  --links-hover-color: rgba(61, 126, 248, 0.1);
 
 
   --font-family: 'DM Sans', sans-serif;

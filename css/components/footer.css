@@ -7,6 +7,9 @@ footer .footer__content {
   padding: 6rem 2rem 1rem;
   max-width: 47rem;
 }
+footer .footer__content h2 {
+  color:var(--blue-og)
+}
 
 footer .footer__content .footer__contact span {
   display: block;

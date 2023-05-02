@@ -65,10 +65,19 @@ p:not(:last-of-type),
 }
 
 .btn.btn-primary {
-  background-color: var(--dark-secondary-color);
+  background-color: rgb(21, 115, 209);
   color: var(--white);
   font-weight: 400;
   font-size: 1.4rem;
+  box-shadow: 1px -2px 3px;
+}
+
+.btn.btn-primary:hover {
+  transition: .3s;
+  color: rgba(1, 24, 43, 0.8);
+  background:rgba(64, 98, 133, 0.2);
+  transform: scale(1.02);
+  box-shadow: -1px 2px 3px;
 }
 
 .max-width {
@@ -98,6 +107,7 @@ p:not(:last-of-type),
 .mb-xl {
   margin-bottom: 6rem;
 }
+
 
 @media only screen and (max-width: 1024px) {
   html {

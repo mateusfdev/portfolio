@@ -28,7 +28,7 @@
 
 .navbar .navbar__content .navbar__links a:hover {
   transition: .4s;
-  color: var(--dark-secondary-color);
+  color:rgb(18, 120, 223);
   border-radius: 20%;
   background: var(--links-hover-color);
 }

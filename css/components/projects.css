@@ -9,6 +9,10 @@
   margin: 0 auto 6rem;
 }
 
+.projects .projects__content h2 {
+  color: var(--blue-og);
+}
+
 .projects ul li {
   display: flex;
   justify-content: space-between;
