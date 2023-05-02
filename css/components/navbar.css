@@ -27,7 +27,10 @@
 }
 
 .navbar .navbar__content .navbar__links a:hover {
-  color: var(--tertiary-color);
+  transition: .4s;
+  color: var(--dark-secondary-color);
+  border-radius: 20%;
+  background: var(--links-hover-color);
 }
 
 .navbar.active {
