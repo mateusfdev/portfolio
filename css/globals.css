@@ -108,6 +108,11 @@ p:not(:last-of-type),
   margin-bottom: 6rem;
 }
 
+body .icons:hover {
+  transform: scale(1.2);
+  transition: .3s;
+}
+
 
 @media only screen and (max-width: 1024px) {
   html {

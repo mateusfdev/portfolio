@@ -41,8 +41,9 @@ header .header__right .header__image::after {
 
 header .header__right .header__image .decode {
   border-radius: 0.5rem;
+  border-color: transparent transparent transparent;
   min-width: 25rem;
-  max-width: 100%;
+  max-width: 75%;
 }
 
 header .header__right .header__image .background {

@@ -35,6 +35,10 @@
   height: auto;
 }
 
+.projects ul li .image img:hover {
+  transition:all 0.2s;
+  transform: scale(1.1)
+}
 .projects ul li .projects__info {
   max-width: 47rem;
 }

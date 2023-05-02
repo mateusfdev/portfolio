@@ -4,7 +4,7 @@
   left: 0;
   width: 100%;
   z-index: 10;
-  background-color: var(--white);
+  background-color:rgba(255, 255, 255, 0.95);
 }
 
 .navbar .navbar__content {
@@ -12,6 +12,8 @@
   display: flex;
   justify-content: space-between;
 }
+
+
 
 .navbar .navbar__content .navbar__links li {
   display: inline-block;

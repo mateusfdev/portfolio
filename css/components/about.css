@@ -29,12 +29,24 @@
 .about .about__left ul li a {
   display: inline-block;
   padding: 1rem;
-  
 }
 
 .about .about__right {
   flex: 1;
   max-width: 66rem;
+}
+
+.about .about__right .techs {
+  display: flex;
+  flex-direction: row;
+}
+.about .about__right .techs .techs-icon {
+padding: 20px;
+}
+.about .about__right .techs .techs-icon:hover {
+transform: scale(1.15);
+transition: all .2s;
+
 }
 
 @media only screen and (max-width: 768px) {
